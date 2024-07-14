@@ -46,9 +46,6 @@ Este projeto é uma aplicação web para a THP Shipping and Logistics, projetada
 
 **Lucas Gomes - Front-End do projeto - [@LucasGomes](https://github.com/lucasgomesdacruz)**
 
-### Acesso ao projeto
-Você pode acessar o projeto final clicando aqui: <a></a>
-
 ### 📄 Licença
 Esse projeto está sob a licença (MIT License)
 
