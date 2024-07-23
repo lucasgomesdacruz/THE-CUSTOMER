@@ -23,13 +23,13 @@
 
     <title>Customer New Client</title>
 </head>
-<body class="d-block d-xxl-flex">
+<body class="d-flex">
     <header class="w-25 vh-100">
-        <nav class="d-flex gap-2 w-100 justify-content-start align-items-start flex-column m-2 border-end">
+        <nav class="d-flex gap-2 w-100 justify-content-start align-items-start flex-column m-2">
             <div>
-                <img class="w-75 m-4" src="src/images/THP_VECTOR.png" alt="Logo THP shipping and logistics">
+                <img class="m-4" src="src/images/THP_VECTOR.png" alt="Logo THP shipping and logistics">
             </div>
-            <ul class="d-flex gap-3 m-3 flex-column fw-bold fs-5" data-custom-text="textCustom">
+            <ul class="d-flex gap-3 flex-column fw-medium fs-6" data-custom-text="textCustom">
                 <li class="d-flex align-items-center gap-3">
                     <i class="fas fa-th-large"></i> <a>Dashboard</a>
                 </li>
@@ -55,8 +55,8 @@
                     <i class="fas fa-cog"></i> <a>Settings</a>
                 </li>
             </ul>
-            <div class="w-50 border ms-5 mt-2 mb-2"></div>
-            <ul class="w-100 d-flex gap-3 m-3 flex-column fw-bold fs-5" data-custom-text="textCustom">
+            <div class="w-50 border ms-5 mt-1 mb-2"></div>
+            <ul class="w-100 d-flex gap-1 flex-column fw-medium fs-6" data-custom-text="textCustom">
                 <li class="d-flex align-items-center gap-3 pointer-event">
                     <i class="fas fa-sign-out-alt"></i> <a>Sign Out</a>
                 </li>
@@ -67,27 +67,27 @@
         </nav>
     </header>
     <main class="vw-100 vh-100 flex-column">
-        <section class="mw-100 d-flex justify-content-xxl-between justify-content-center align-items-center flex-xxl-row flex-column p-4">
+        <section class="mw-100 d-flex justify-content-xxl-between justify-content-center align-items-center flex-row pt-4 pb-3 ps-5 pe-5">
             <div class="w-75 input-group flex-nowrap input-icon">
+                <input type="text" class="form-control" placeholder="Search Here" aria-label="Search" aria-describedby="addon-wrapping ">
                 <span class="input-group-text" id="addon-wrapping">
                     <i class="fas fa-search" aria-hidden="true"></i>
                 </span>
-                <input type="text" class="form-control" placeholder="Seach Here" aria-label="Username" aria-describedby="addon-wrapping">
             </div>
-            <div class="w-50 d-flex justify-content-xxl-end justify-content-center align-items-center gap-5 m-xxl-0 mt-2" data-custom-client="newClient">
+            <div class="w-50 d-flex justify-content-center align-items-center gap-5 mt-2" data-custom-client="newClient">
                 <i class="fas fa-comments"></i>
                 <i class="fas fa-bell"></i>
-                <button type="button" class="d-block text-nowrap btn btn-primary btn-lg pe-4 ps-4">
+                <button type="button" class="d-block text-nowrap btn btn-primary btn-lg pe-4 ps-4 me-1 ms-1">
                     <span class="m-1">+</span> New Client
                 </button>
             </div>
         </section>
         <section class="w-100 d-flex" data-custom-customer="customContainer">
-            <div class="w-100 border ms-5 me-5 me-xxl-0 mt-4">
-                <div class="d-flex justify-content-xxl-start justify-content-center align-items-xxl-start align-items-center flex-xxl-row flex-column bg-white">
-                    <div class="w-xxl-50 w-100 pt-5 ps-5">
-                        <h1 class="mb-3 overflow-hidden"><span>+</span> New Client</h1>
-                        <form class="w-xxl-75 w-100 d-flex flex-column gap-3 text-black fw-bold">
+            <div class="w-100 border mt-4 ms-5">
+                <div class="d-flex justify-content-start align-items-start flex-row bg-white">
+                    <div class="w-100 pt-5 ps-5">
+                        <h1 class="mb-3 overflow-hidden d-flex align-items-center"><span>+</span> New Client</h1>
+                        <form class="w-75 d-flex flex-column gap-2 text-black fw-bold">
                             <div class="form-group">
                                 <label for="name">Name</label>
                                 <input type="text" class="form-control" id="name" name="name" placeholder="Name">
@@ -114,8 +114,8 @@
                             </div>
                         </form>
                     </div>
-                    <article class="w-xxl-50 w-100 d-flex justify-content-start align-items-center flex-column bg-white border-start border-top mt-4 mt-xxl-0">
-                        <div class="w-75 d-flex justify-content-center align-items-center flex-column gap-3 mt-5" data-custom-social="customSocial">
+                    <article class="w-100 d-flex justify-content-start align-items-center flex-column m-0">
+                        <div class="w-75 d-flex justify-content-center align-items-center flex-column gap-3 mt-xxl-5 mt-4" data-custom-social="customSocial">
                             <div>
                                 <i class="fas fa-user"></i>
                             </div>

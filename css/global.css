@@ -4,6 +4,7 @@
     box-sizing: border-box;
     list-style: none;
     font-family: "Poppins", sans-serif;
+    overflow-y: hidden;
     overflow-x: hidden;
 }
 :root {
@@ -11,5 +12,10 @@
     --primary-button: linear-gradient(135deg, #00467E, #0463AF);
     --secondary-color: #8A8A8A;
     --bg-color: #fafafa;
+}
+
+button {
+    outline: none !important;
+    border: none !important;
 }
 

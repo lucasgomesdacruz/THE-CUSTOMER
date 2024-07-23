@@ -1,3 +1,6 @@
+article {
+    background-color: rgb(255, 255, 255);
+}
 [data-custom-customer="customContainer"] {
     background-color: var(--bg-color);
 }
@@ -13,6 +16,15 @@
 [data-custom-customer="customContainer"] h1 {
     color: var(--primary-color);
 }
+@media (max-width: 1400px) {
+    [data-custom-customer="customContainer"]  h1 {
+        font-size: 28px;
+    } 
+    [data-custom-customer="customContainer"]  span {
+        font-size: 40px;
+        font-weight: lighter;
+    } 
+} 
 @media (min-width: 1400px) {
     [data-custom-customer="customContainer"] > div {
         overflow-y: hidden;
